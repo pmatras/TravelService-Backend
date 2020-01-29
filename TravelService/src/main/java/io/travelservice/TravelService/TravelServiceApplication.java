@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = { "io.travelservice.rest","io.travelservice.database"} )
+@ComponentScan(basePackages = { "io.travelservice.rest","io.travelservice.database", "io.travelservice.user"} )
 public class TravelServiceApplication {
 
 	public static void main(String[] args) {
